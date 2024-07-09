@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -67,10 +67,12 @@ div .Programer-boy {
     letter-spacing: 0%;
     text-align: center;
 }
-.btn-container{
+
+.btn-container {
     text-align: center;
     margin-bottom: 500px;
 }
+
 .btn-primary {
     padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
@@ -82,4 +84,90 @@ div .Programer-boy {
     border-radius: 8px;
     background: black;
     border: none;
+}
+
+/* section of content heading */
+
+
+.Why {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 198px;
+}
+
+.Reason {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* section of content */
+
+
+.number-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 310px 0 293px;
+}
+.number-two{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 293px 0 310px;
+}
+.number-three{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 310px 0 293px;
+}
+.father-one{
+    max-width: 477px;
+}
+.father-two{
+    max-width: 477px;
+    margin-top: 80px;
+}
+.father-three{
+    max-width: 477px;
+    margin-top: 80px;
+}
+.line-1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.line-2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
