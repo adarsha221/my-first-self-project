@@ -60,7 +60,6 @@ div .Programer-boy {
 
 .banner-content {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -101,7 +100,6 @@ div .Programer-boy {
 
 .Reason {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -110,38 +108,43 @@ div .Programer-boy {
     opacity: 0.7;
 }
 
-/* section of content */
+/* section of content part one*/
 
 
-.number-one{
+.number-one {
     display: flex;
     justify-content: space-between;
     margin: 0 310px 0 293px;
 }
-.number-two{
+
+.number-two {
     display: flex;
     justify-content: space-between;
     margin: 0 293px 0 310px;
 }
-.number-three{
+
+.number-three {
     display: flex;
     justify-content: space-between;
     margin: 0 310px 0 293px;
 }
-.father-one{
+
+.father-one {
     max-width: 477px;
 }
-.father-two{
+
+.father-two {
     max-width: 477px;
     margin-top: 80px;
 }
-.father-three{
+
+.father-three {
     max-width: 477px;
     margin: 80px;
 }
+
 .line-1 {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -151,7 +154,6 @@ div .Programer-boy {
 
 .line-2 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -164,10 +166,48 @@ div .Programer-boy {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* section of content part 2 */
+
+.beginning {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 168px;
+}
+
+.beginning-two {
+    margin-left: 180px;
+    margin-top: 90px;
+}
+.beginning-three{
+    margin-top: 130px;
+}
+.one{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.line-3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.line-4 {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
 }
