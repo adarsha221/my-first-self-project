@@ -1,9 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 /* header */
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header-one {
     color: rgb(13, 19, 33);
     font-size: 28px;
@@ -24,3 +30,56 @@
 }
 
 /* section one */
+.banner-section {
+    background-image: url(../assets/Hero-bg.png);
+    position: relative;
+    width: 1500px;
+    height: 652px;
+    top: 131px;
+    margin-bottom: 20px;
+}
+
+div {
+    align-items: center;
+}
+
+div .Programer-boy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-heading {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-content {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn-container{
+    text-align: center;
+    margin-bottom: 500px;
+}
+.btn-primary {
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: black;
+    border: none;
+}
