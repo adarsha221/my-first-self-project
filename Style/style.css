@@ -178,7 +178,7 @@ div .Programer-boy {
 .beginning {
     max-width: 500px;
     margin: auto;
-    margin-top: 168px;
+    margin-top: 50px;
 }
 
 .beginning-two {
@@ -216,6 +216,12 @@ div .Programer-boy {
 
 /* section of content part 3 */
 
+#content-three {
+    display: flex;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
 .current-target {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -227,7 +233,6 @@ div .Programer-boy {
     align-items: flex-start;
     padding: 40px;
     margin: 0px 24px;
-    margin-left: 130px;
     margin-top: 48px;
 }
 
@@ -256,6 +261,72 @@ div .Programer-boy {
 }
 
 .more {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* content four */
+.final-head {
+    text-align: center;
+}
+
+.next-target {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.about-target {
+    color: rgb(13, 19, 33);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/* part two */
+
+.final-content {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 190px;
+    margin-top: 70px;
+}
+
+.tittle {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.final-learn-more {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
