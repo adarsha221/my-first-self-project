@@ -185,10 +185,12 @@ div .Programer-boy {
     margin-left: 180px;
     margin-top: 90px;
 }
-.beginning-three{
+
+.beginning-three {
     margin-top: 130px;
 }
-.one{
+
+.one {
     width: 1076px;
     height: 550px;
     border-radius: 16px;
@@ -210,4 +212,54 @@ div .Programer-boy {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* section of content part 3 */
+
+.current-target {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    max-width: 344px;
+    max-height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0px 24px;
+    margin-left: 130px;
+    margin-top: 48px;
+}
+
+.logo {
+    width: 39.68px;
+    height: 56px;
+}
+
+.language-name {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about-language {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.more {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
