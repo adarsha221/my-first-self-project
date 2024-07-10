@@ -338,12 +338,16 @@ div .Programer-boy {
 
 /* content six */
 .overlay {
-    background-image: url(../assets/handshake.jpg);
     position: relative;
-    width: 1500px;
-    height: 652px;
-    top: 131px;
-    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/handshake.jpg') no-repeat center center/cover;
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
 }
 
 .need {
@@ -368,6 +372,7 @@ div .Programer-boy {
     text-align: center;
     opacity: 0.7;
 }
+
 .feedback-form {
     display: flex;
     justify-content: center;
@@ -390,8 +395,4 @@ div .Programer-boy {
     color: #000;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-.feedback-form button:hover {
-    background-color: #ddd;
 }
