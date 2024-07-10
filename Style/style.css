@@ -396,3 +396,32 @@ div .Programer-boy {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+/* footer */
+.footer{
+    isplay: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 5px;
+    padding: auto;
+    margin: 190px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-div {
+    display: flex;
+    flex-direction: row;
+    word-spacing: 5px;
+    padding: auto;
+    margin: 190px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
